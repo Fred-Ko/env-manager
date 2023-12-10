@@ -1,0 +1,44 @@
+{
+  "pages": [
+    {
+      "id": "Page1",
+      "isDefault": false
+    },
+    {
+      "id": "Page2",
+      "isDefault": true
+    }
+  ],
+  "viewMode": false,
+  "appIsExample": false,
+  "unreadCommentThreads": 0,
+  "unpublishedApplicationDetail": {
+    "appPositioning": {
+      "type": "FIXED"
+    }
+  },
+  "color": "#F5D1D1",
+  "unpublishedAppLayout": {
+    "type": "FLUID"
+  },
+  "publishedAppLayout": {
+    "type": "FLUID"
+  },
+  "unpublishedCustomJSLibs": [
+    {
+      "uidString": "AWS_https://cdnjs.cloudflare.com/ajax/libs/aws-sdk/2.1514.0/aws-sdk.min.js"
+    },
+    {
+      "uidString": "ky_https://cdn.jsdelivr.net/npm/ky@1.1.3/+esm"
+    },
+    {
+      "uidString": "remeda_https://cdn.jsdelivr.net/npm/remeda@1.29.0/+esm"
+    }
+  ],
+  "publishedCustomJSLibs": [],
+  "evaluationVersion": 2,
+  "applicationVersion": 2,
+  "collapseInvisibleWidgets": true,
+  "isManualUpdate": false,
+  "deleted": false
+}
