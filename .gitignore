@@ -1,0 +1,8 @@
+
+env-manager/node_modules/
+
+env-manager/backend/aws-api-server/node_modules/
+
+env-manager/backend/aws-api-server/dist/
+
+env-manager/backend/aws-api-server/.idea/

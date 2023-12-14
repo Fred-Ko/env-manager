@@ -9,13 +9,13 @@ export class AppController {
   async createSecret(
     @Body() body: { accessKeyId: string; secretAccessKey: string; region: string }
   ) {
-    await this.appService.setCredentials(body.accessKeyId, body.secretAccessKey, body.region);
+    await this.appService.login(body.accessKeyId, body.secretAccessKey, body.region);
     return { message: 'Credentials set successfully' };
   }
 
   @Get('secrets')
-  async getSecrets() {
-    return this.appService.getSecrets();
+  async getSecrets(@Body() body: { query?: string }) {
+    return this.appService.getSecrets(body.query);
   }
 
   @Post('updateSecret')
